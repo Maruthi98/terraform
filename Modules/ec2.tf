@@ -5,7 +5,7 @@ provider "aws"{
 
  }
 
-resource "aws_instance" "ec2_pro" {
+resource "aws_instance" "ec2" {
 
  availability_zone = "${var.availability_zones}"
 
@@ -25,15 +25,15 @@ resource "aws_instance" "ec2_pro" {
 
  }
 
- security_groups= ["${aws_security_group.launch-wizard-36.name}"] 
+ security_groups= ["${aws_security_group.launch-wizard-35.name}"] 
 
  }
 
 
 
- resource "aws_security_group" "launch-wizard-36" {
+ resource "aws_security_group" "launch-wizard-35" {
 
- name="launch-wizard-36"
+ name="launch-wizard-35"
 
 
  ingress {
