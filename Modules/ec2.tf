@@ -19,7 +19,7 @@ resource "aws_instance" "ec2" {
 
  tags = {
 
- Name = "production_server"
+ Name = "terraform_server"
 
  Name = "Terraform-${count.index + 1}"
 
