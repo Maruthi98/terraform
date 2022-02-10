@@ -14,7 +14,7 @@ module "ec2" {
 
 
 
-  ami = "ami-03fa4afc89e4a8a09"
+  ami = "ami-0c6615d1e95c98aca"
 
 
 
