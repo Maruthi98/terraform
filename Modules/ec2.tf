@@ -13,7 +13,7 @@ resource "aws_instance" "ec2" {
 
  instance_type = "${var.instance_type}"
 
- key_name = "masterin"
+ key_name = "newtera"
 
  count = "${var.instance_count}"
 
