@@ -13,13 +13,13 @@ resource "aws_instance" "ec2" {
 
  instance_type = "${var.instance_type}"
 
- key_name = "newtera"
+ key_name = "pudu"
 
  count = "${var.instance_count}"
 
  tags = {
 
- Name = "terraform_server"
+ Name = "terraform"
 
  Name = "Terraform-${count.index + 1}"
 
