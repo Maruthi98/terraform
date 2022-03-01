@@ -25,15 +25,15 @@ resource "aws_instance" "ec2" {
 
  }
 
- security_groups= ["${aws_security_group.launch-wizard-100.name}"] 
+ security_groups= ["${aws_security_group.launch-wizard-33.name}"] 
 
  }
 
 
 
- resource "aws_security_group" "launch-wizard-100" {
+ resource "aws_security_group" "launch-wizard-33" {
 
- name="launch-wizard-100"
+ name="launch-wizard-33"
 
 
  ingress {
